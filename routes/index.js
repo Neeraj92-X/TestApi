@@ -2,13 +2,11 @@ const express = require('express');
 const router = express.Router();
 
 //import routes
+// const preLoginApi = require('./preLoginApi');
 const userApi = require('./user');
-const urlApi = require('./url');
-const qrCodeApi = require('./qrCode');
 
 //We made groupping of routes 
+// preLoginApi(router);
 userApi(router);
-urlApi(router);
-qrCodeApi(router);
 
 module.exports = router;

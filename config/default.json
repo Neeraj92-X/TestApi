@@ -1,0 +1,19 @@
+{
+  "database": {
+    "host": "",
+    "database": "",
+    "user": "root",
+    "port": 3306,
+    "password": "",
+    "waitForConnections": true,
+    "connectionLimit": 10
+  },
+  "jwtConfig": {
+    "jwtKey": "my_secret_key",
+    "jwtExpirySeconds": "8h",
+    "refreshTokenExpiry": "24h"
+  },
+  "emailService": {
+    
+  }
+}
